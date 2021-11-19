@@ -27,7 +27,7 @@ import torchvision.transforms as T
 
 import numpy as np
 
-st.set_page_config(page_title='Computer Vision, Explained', page_icon = "icon.ico")
+st.set_page_config(page_title='Emotion Detection', page_icon = "icon.ico")
 
 stats = ([0.5],[0.5])
 valid_tsfm = T.Compose([
