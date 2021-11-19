@@ -111,8 +111,6 @@ class ResNet_expression(expression_model):
 with open("emotion_model.pkl", "rb") as f:
     model = pickle.load(f)
 
-st.write("DONE")
-
 st.title("Emotion Detector")
 
 st.sidebar.title("[Cason Wight](casonwight.com)")
